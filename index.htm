@@ -15,20 +15,42 @@
         </header>
     
         <div class="container">
-            <section class="conteudo">
+            <section class="content" onclick="toggleContent(this)">
                 <h2>Sobre Mim</h2>
-                <p>Descrição</p>
+                <div class="hidden-content">
+                    <p>Descrição</p>
+                </div>
             </section>
-        
-            <section class="conteudo">
+    
+            <section class="content" onclick="toggleContent(this)">
                 <h2>Habilidades</h2>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Node.js</li>
-                </ul>
+                <div class="hidden-content">
+                    <ul type="*">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                    <ul type="*">
+                        <li>Node.js</li>
+                        <li>Golang</li>
+                        <li>PLSQL - Oracle</li>
+                        <li>GRPC - Mosquitto</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="content" onclick="toggleContent(this)">
+                <h2>Habilidades</h2>
+                <div class="hidden-content">
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
             </section>
         </div>
     
@@ -40,6 +62,9 @@
                 <p>GitHub: <a href="https://github.com/DanielHenriquePossamai" target="_blank">github.com/DanielHenriquePossamai</a></p>
             </section>
         </footer>
+    
+        <script src="js/script.js"></script>
     </body>
     
     </html>
+    
