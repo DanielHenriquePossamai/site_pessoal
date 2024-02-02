@@ -1,3 +1,7 @@
+a {
+    color: #00ff00;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,6 +11,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #000;
     color: #00ff00;
+}
+
+p {
+    text-indent: 1em;
 }
 
 header, footer {
@@ -40,6 +48,34 @@ header, footer {
 .content h2 {
     text-align: center;
 }
+
+.content #skills {
+    text-align: center;
+}
+
+.content #skills #lists {
+    padding: 2%;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+}
+
+.content #skills ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; 
+}
+
+.content #skills ul:first-child {
+    margin-right: 5%; 
+}
+
+
+.content #skills ul li {
+    margin-bottom: 10px;
+}
+
 
 .content:hover {
     transform: scale(1.1);
